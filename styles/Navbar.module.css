@@ -1,0 +1,13 @@
+.back{
+    background-color: #FFC143;
+  }
+
+.txtColor{
+    color: #0275d8;  
+}
+.link{
+  text-decoration: none;
+}
+.link:hover{
+  color: white;
+}
