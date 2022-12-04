@@ -1,14 +1,26 @@
-import LandingContent from '../components/LandingContent/LandingContent'
-import Navbar from '../components/Navbar'
-import styles from '../styles/Home.module.css'
+import { StrictMode } from "react";
+import ReactDOM from "react-dom";
 
-export default function Home() {
-  return (
-    
-    <div className={styles.container}>
-      <Navbar/>
-      <LandingContent/>
-  
+import LoginFormComponent from "./LoginFormComponent.tsx";
+import "./login_container.css";
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <StrictMode>
+    <div className="container">
+      <LoginFormComponent />
     </div>
-  )
-}
+  </StrictMode>,
+  rootElement
+);
+
+
+
+
+
+
+
+
+
+
+
